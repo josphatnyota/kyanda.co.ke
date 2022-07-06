@@ -494,6 +494,18 @@ section {
 /*--------------------------------------------------------------
 # Details
 --------------------------------------------------------------*/
+.details .getstarted, .details .getstarted:focus {
+  background: #ff540d;
+  color: #fff;
+  padding: 12px 25px;
+  color: #fff;
+  line-height: 1;
+  border-radius: 10px;
+}
+.details .getstarted:hover, .details .getstarted:focus:hover {
+  background: #e39305;
+  color: #fff;
+}
 
 .details .content + .content {
   margin-top: 100px;
